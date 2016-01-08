@@ -45,7 +45,7 @@ catch <- lapply(X = splits, FUN = function(t) {
 })
 
 # ---------------------------------------------------------------------- #
-# Sommer net 'n verandering.
+# Sommer net 'n verandering. Weereens
 # ---------------------------------------------------------------------- #
 stand_df_list <- split(x = df_coal_data_with_calc_cols, f = df_coal_data_with_calc_cols$stand_number)
 
