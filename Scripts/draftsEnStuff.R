@@ -21,6 +21,8 @@ temp <- lapply(X = splits, FUN = function(stnd) {
 
 temp <- do.call("rbind", temp)
 
+# kom ons sit 'n tweede verandering hierin.
+
 temp$type <- paste(temp$energy_type, temp$insulation_type, sep = "_")
 temp$hod <- hour(temp$date)
 temp$mo <- month(temp$date)
